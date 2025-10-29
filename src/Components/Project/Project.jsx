@@ -1,4 +1,3 @@
-// Components/Project/Project.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ExternalLink, Github } from 'lucide-react';
@@ -23,7 +22,7 @@ const Project = () => {
     {
       title: "E-Commerce Website",
       description: "A fully responsive e-commerce platform with product filtering, cart functionality, and secure checkout.",
-      technologies: ["JavaScript", "Tailwind CSS"],
+      technologies: ["JavaScript", "Tailwind CSS", "HTML"],
       image: "./public/ecommerce.png",
       liveLink: "https://e-commerce-website-five-sand.vercel.app/",
       githubLink: "https://github.com/oyejide-olamide?tab=repositories"
@@ -39,9 +38,15 @@ const Project = () => {
     {
       title: "Restaurant Websites",
       description: "a modern, fully responsive restaurant site built with HTML, CSS, and JavaScript, featuring an elegant design and seamless user experience across all devices.",
-      technologies: ["React", "Firebase", "Tailwind CSS"],
+      technologies: ["HTML", "CSS", "JavaScript"],
       image: "./public/restaurant.png",
-      liveLink: "https://restaurant-website-alpha-indol.vercel.app/",
+      _liveLink: "https://restaurant-website-alpha-indol.vercel.app/",
+      get liveLink() {
+        return this._liveLink;
+      },
+      set liveLink(value) {
+        this._liveLink = value;
+      },
       githubLink: "https://github.com/oyejide-olamide?tab=repositories"
     }
   ];

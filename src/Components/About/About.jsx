@@ -1,4 +1,3 @@
-// Components/About/About.jsx
 import React from 'react';
 import { Settings, Briefcase, Gem, Clock } from 'lucide-react';
 import { motion } from 'framer-motion';

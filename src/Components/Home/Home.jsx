@@ -1,4 +1,3 @@
-// Components/Home/Home.jsx
 import React, { useState, useEffect } from 'react';
 import { Menu, X, User, ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';

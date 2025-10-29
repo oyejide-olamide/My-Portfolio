@@ -1,4 +1,3 @@
-// Components/Certification/Certification.jsx
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Award, Calendar, ExternalLink } from 'lucide-react';
