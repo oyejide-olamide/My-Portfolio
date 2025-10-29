@@ -23,7 +23,7 @@ const Project = () => {
       title: "E-Commerce Website",
       description: "A fully responsive e-commerce platform with product filtering, cart functionality, and secure checkout.",
       technologies: ["JavaScript", "Tailwind CSS", "HTML"],
-      image: "./public/ecommerce.png",
+      image: "ecommerce.png",
       liveLink: "https://e-commerce-website-five-sand.vercel.app/",
       githubLink: "https://github.com/oyejide-olamide?tab=repositories"
     },
@@ -31,7 +31,7 @@ const Project = () => {
       title: "NoteTaking App",
       description: "A lightweight web application for writing, editing, and managing notes with a clean and responsive design.",
       technologies: ["React", "Tailwind CSS", "JavaScript"],
-      image: "./public/note.png",
+      image: "note.png",
       liveLink: "https://note-taking-app-two-rho.vercel.app/",
       githubLink: "https://github.com/oyejide-olamide?tab=repositories"
     },
@@ -39,7 +39,7 @@ const Project = () => {
       title: "Restaurant Websites",
       description: "a modern, fully responsive restaurant site built with HTML, CSS, and JavaScript, featuring an elegant design and seamless user experience across all devices.",
       technologies: ["HTML", "CSS", "JavaScript"],
-      image: "./public/restaurant.png",
+      image: "restaurant.png",
       _liveLink: "https://restaurant-website-alpha-indol.vercel.app/",
       get liveLink() {
         return this._liveLink;
